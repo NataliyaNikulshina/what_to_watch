@@ -22,7 +22,7 @@ source venv/bin/activate
 или для пользователей Windows
 
 ```
-source env/Scripts/activate
+source venv/Scripts/activate
 ```
 
 Установить зависимости из файла requirements.txt:
@@ -39,4 +39,5 @@ pip install -r requirements.txt
 
 ```
 flask run
+flask --app opinions_app.py run
 ```
